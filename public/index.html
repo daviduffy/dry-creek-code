@@ -4,16 +4,107 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>This is a test</title>
+  <style>
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-  <div>This is my first website</div>
-
-  <marquee behavior="" direction="">yes I am a marquee</marquee>
-  
-  <label for="color">Favorite color</label>
-  <input type="text" id="color" name="color" placeholder="enter your favorite color">
-  <button type="submit">submit</button>
-  
-  <p>my name is David</p>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <h1 class="h1">Dry Creek Coding Workshop</h1>
+        <img
+          class="header__logo"
+          src="./img/logo.png"
+        >
+      </div>
+    </header>
+    <main class="body">
+      <div>
+        <section class="intro">
+          <p>
+            Thanks for joining this coding workshop!
+          </p>
+          <p>
+            There are two areas we will work on together:
+          </p>
+          <ul>
+            <li>Computer Science Basics</li>
+            <li>Website Development</li>
+          </ul>
+          <h2></h2>
+        </section>
+        <section class="samples">
+          <h2>Code Samples</h2>
+          <p>coming soon</p>
+        </section>
+      </div>
+      <aside class="links">
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a
+              href="https://jsbin.com/"
+              target="blank"
+            >
+              JSBin.com
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <footer class="footer">
+      
+    </footer>
+  </div>
 </body>
 </html>
