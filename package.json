@@ -1,0 +1,11 @@
+{
+  "name": "dry-creek-code",
+  "version": "0.0.1",
+  "description": "dry creek elementary coding assistance",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
