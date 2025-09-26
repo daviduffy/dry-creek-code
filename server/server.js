@@ -1,4 +1,5 @@
 const express = require('express');
+const secure = require('ssl-express-www');
 const path = require('path');
 
 const app = express();
@@ -9,8 +10,11 @@ const port = process.env.PORT || 3000;
 // current directory, go up a folder, enter the public dir
 const publicPath = path.join(__dirname, '..', 'public');
 
+app.use(secure);
+app.use(express.static(publicPath));
+
 // match all unmatched routes
-app.get('/', (request, response) => {
+app.get(/.*/, (request, response) => {
   // respond with the path to index.html
   response.sendFile(path.join(publicPath, 'index.html'));
 });
