@@ -1,8 +1,8 @@
 heading: Week 2
 
 tease:
-  This week we are talking all about HTML!  If you ever used a word processing program like
-  Microsoft Word Google Docs, you've probably applied formatting to blocks of text. HTML
+  This week we are talking all about HTML!  If you have ever used a word processing program like
+  Microsoft Word or Google Docs, you've probably applied formatting to blocks of text. HTML
   serves a similar purpose by offering text formatting instructions to web browsers through
   tags known as markup.
 topics:
@@ -11,10 +11,12 @@ topics:
 href:
   /week-one
 links:
+  - url: https://jsbin.com/nitagex/1/edit?html,output
+    text: HTML article formatting
+  - url: https://jsbin.com/tetegom/edit?html,output
+    text: Scratch Pad With HTML
   - url: https://studio.code.org/courses/coursec-2025/units/1/lessons/3/levels/1
     text: Angry Birds Block Coding
-  - url: https://jsbin.com/sunukupuvu/edit?html,output
-    text: JSBin.com Demo Page
 
 article:
   title: "Copper Dreams: When Minecraft Gets *Too* Real"

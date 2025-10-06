@@ -1,7 +1,11 @@
 <template>
   <header-component />
-  <breadcrumbs v-if="!isHome" />
-  <RouterView />
+  <main class="body">
+    <section class="section">
+      <breadcrumbs v-if="!isHome" />
+      <RouterView />
+    </section>
+  </main>
 </template>
 
 <script setup lang="ts">

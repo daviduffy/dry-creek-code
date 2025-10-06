@@ -1,15 +1,10 @@
 <template>
-  <main class="body">
-    <section class="section">
-      <tease-component
-        v-for="(week, index) in weeks"
-        :key="index"
+  <tease-component
+    v-for="(week, index) in weeks"
+    :key="index"
 
-        v-bind="week"
-      />
-    </section>
-
-  </main>
+    v-bind="week"
+  />
 </template>
 
 <script setup lang="ts">

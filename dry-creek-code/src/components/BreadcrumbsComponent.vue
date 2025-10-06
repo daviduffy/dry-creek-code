@@ -14,7 +14,7 @@
 
 <style>
 .breadcrumbs {
-  padding: 0.8rem 1.6rem;
+  padding: 0.8rem 0 1.6rem;
 }
 
 .breadcrumbs__link {

@@ -11,7 +11,7 @@
           <li>Computer Science Basics</li>
           <li>Website Development</li>
         </ul>
-        <div id="week-1-jump" class="jump">
+        <div id="week-1-jump">
           <div class="jump__content">
             <div class="accordion">
               <input class="accordion__input" type="checkbox" name="accordion" id="acc1">
@@ -58,9 +58,6 @@
             </div>
           </div>
         </div>
-<!--         <div class="jump-container">
-          <button class="button button--jump" data-id="week-1-jump" onclick="expand(this)">See more</button>
-        </div> -->
       </div>
     </div>
     <aside-component />
