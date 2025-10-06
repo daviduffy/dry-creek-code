@@ -9,10 +9,10 @@ topics:
   - hypertext markup language
   - using heading and paragraph tags
 href:
-  /week-one
+  /week-two
 links:
   - text: HTML article formatting
-    url: https://jsbin.com/nitagex/1/edit?html,output
+    url: https://jsbin.com/nitagex/edit?html,output
   - text: Scratch Pad With HTML
     url: https://jsbin.com/tetegom/edit?html,output
   - text: Debugging with "step" button
