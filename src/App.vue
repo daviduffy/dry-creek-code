@@ -4,6 +4,9 @@
     <section class="section">
       <breadcrumbs v-if="!isHome" />
       <RouterView />
+      <footer class="footer">
+        
+      </footer>
     </section>
   </main>
 </template>

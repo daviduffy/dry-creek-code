@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { computed } from 'vue';
-import HeaderComponent from '../components/Header.vue';
+import HeaderComponent from '../components/HeaderComponent.vue';
 import TeaseComponent from '../components/TeaseComponent.vue';
 
 import week1 from '../content/week1.yaml';

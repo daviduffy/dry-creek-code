@@ -65,7 +65,11 @@ interface Props {
 </script>
 
 <style lang="scss">
-@import '../assets/vars.scss';
+@mixin md-mq-up {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
 
 .week {
   max-width: 100%;

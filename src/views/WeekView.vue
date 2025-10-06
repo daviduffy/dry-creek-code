@@ -16,8 +16,7 @@ const options = computed(() => {
   const { path } = currentRoute.value;
   const { routes } = router.options;
   const routeOptions = routes.find((route) => route.path === path);
-
-  return import(`../content/${options.content}`);
+  return routeOptions;
 });
 
 

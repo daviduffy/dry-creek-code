@@ -1,4 +1,8 @@
-@import './vars.scss';
+@mixin md-mq-up {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
 
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
@@ -109,7 +113,7 @@ h3 {
 .body {
   width: 100vw;
   max-width: var(--content-width);
-  padding: 1.6rem;
+  padding: 3.2rem 1.6rem 1.6rem;
   margin: 0 auto;
 }
 

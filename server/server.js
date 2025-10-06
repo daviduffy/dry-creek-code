@@ -1,6 +1,10 @@
-const express = require('express');
-const secure = require('ssl-express-www');
-const path = require('path');
+import express from 'express';
+import secure from 'ssl-express-www';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 
@@ -8,19 +12,19 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // current directory, go up a folder, enter the public dir
-const publicPath = path.join(__dirname, '..', 'public');
+const distPath = path.join(__dirname, '..', 'dist');
 
 app.use(secure);
-app.use(express.static(publicPath));
+app.use(express.static(distPath));
 
 // match all unmatched routes
 app.get(/.*/, (request, response) => {
   // respond with the path to index.html
-  response.sendFile(path.join(publicPath, 'index.html'));
+  response.sendFile(path.join(distPath, 'index.html'));
 });
 
 const server = app.listen(port, () => {
   console.log('server is up');
 });
 
-module.exports = server;
+export default server;

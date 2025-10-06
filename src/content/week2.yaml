@@ -11,12 +11,12 @@ topics:
 href:
   /week-one
 links:
-  - url: https://jsbin.com/nitagex/1/edit?html,output
-    text: HTML article formatting
-  - url: https://jsbin.com/tetegom/edit?html,output
-    text: Scratch Pad With HTML
-  - url: https://studio.code.org/courses/coursec-2025/units/1/lessons/3/levels/1
-    text: Angry Birds Block Coding
+  - text: HTML article formatting
+    url: https://jsbin.com/nitagex/1/edit?html,output
+  - text: Scratch Pad With HTML
+    url: https://jsbin.com/tetegom/edit?html,output
+  - text: Debugging with "step" button
+    url: https://studio.code.org/courses/coursec-2025/units/1/lessons/4/levels/1
 
 article:
   title: "Copper Dreams: When Minecraft Gets *Too* Real"
