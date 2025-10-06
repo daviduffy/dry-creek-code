@@ -56,14 +56,14 @@ h3 {
   background-color: #015ea6;
 }
 
-.header__container,
+/*.header__container,
 .body,
 .footer__container {
   width: 100%;
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 1.6rem;
-}
+}*/
 
 .body {
   align-content: baseline;
@@ -166,7 +166,7 @@ h3 {
   cursor: pointer;
   font-weight: bold;
   border-bottom: 1px solid #ccc;
-  transition: background-color: 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 .accordion__label:hover, .accordion__label:focus, .accordion__label:active {
   background-color: #d7d7d7;
