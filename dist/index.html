@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Dry Creek Computer Science Workshop</title>
+  <style>
+    /* http://meyerweb.com/eric/tools/css/reset/ 
+       v2.0 | 20110126
+       License: none (public domain)
+    */
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+<script defer src="bundle.js"></script></head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <h1 class="h1">Dry Creek Computer Science Workshop</h1>
+        <img
+          class="header__logo"
+          src="./img/logo.png"
+        >
+      </div>
+    </header>
+    <main class="body">
+<!--       <section class="section">
+        <div class="intro">
+          <p>
+            Thanks for joining this coding workshop!
+          </p>
+          <p>
+            There are two areas we will work on together:
+          </p>
+          <ul>
+            <li>Computer Science Basics</li>
+            <li>Website Development</li>
+          </ul>
+        </div>
+      </section> -->
+      <section class="section">
+        <div id="week-1" class="week week-1">
+          <div class="masthead">
+            <h2>Week 1</h2>
+
+            <p>
+              In week 1 we will do some introductions, and I will ask some questions about what everyone wants to learn. I will also introduce the two areas that we can work on together:
+            </p>
+            <ul>
+              <li>Computer Science Basics</li>
+              <li>Website Development</li>
+            </ul>
+            <div id="week-1-jump" class="jump">
+              <div class="jump__content">
+                <div class="accordion">
+                  <input class="accordion__input" type="checkbox" name="accordion" id="acc1">
+                  <label class="accordion__label" for="acc1">What is Computer Science?</label>
+                  <div class="accordion__content">
+                    <div class="accordion__c-padding">
+                      <p>Computer Science is like teaching a robot how to play with toys.</p>
+                      <ul>
+                        <li>You tell the robot what steps to take, like “pick up block → stack block → don’t knock it over.”</li>
+                        <li>The robot doesn’t know why you want it to do things, it just follows your steps carefully.</li>
+                        <li>If you forget a step, the robot gets confused or makes a mess.</li>
+                      </ul>
+                      <p>So computer science is the study of how to give robots (computers) clear, step-by-step instructions so they can help us with games, stories, math, or anything else.</p>
+                      <a
+                        href="https://studio.code.org/courses/coursec-2025/units/1/lessons/3/levels/1"
+                        target="blank"
+                      >
+                        Angry Birds Block Coding
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion">
+                  <input class="accordion__input" type="checkbox" name="accordion" id="acc2">
+                  <label class="accordion__label" for="acc2">What is Website Development?</label>
+                  <div class="accordion__content">
+                    <div class="accordion__c-padding">
+                      <p>Website development (also called frontend web development) is like drawing and decorating a shop window.</p>
+                      <ul>
+                        <li>The shop is the website.</li>
+                        <li>The window is what people see on their computer or phone screen.</li>
+                        <li>You put up pictures, words, and buttons so people can look, read, or click.</li>
+                        <li>The “frontend” part is everything you can see and touch — the colors and images, the buttons, the menus.</li>
+                      </ul>
+                      <p>So frontend web development is just making the parts of a website that people see and interact with.</p>
+                      <a
+                        href="https://jsbin.com/sunukupuvu/edit?html,output"
+                        target="blank"
+                      >
+                        JSBin.com Demo Page
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="jump-container">
+              <button class="button button--jump" data-id="week-1-jump" onclick="expand(this)">See more</button>
+            </div>
+          </div>
+        </div>
+
+
+        <aside class="links">
+          <h3>Links</h3>
+          <ul>
+            <li>
+              <a
+                href="https://studio.code.org/courses/coursec-2025/units/1/lessons/3/levels/1"
+                target="blank"
+              >
+                Angry Birds Block Coding
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://jsbin.com/sunukupuvu/edit?html,output"
+                target="blank"
+              >
+                JSBin.com Demo Page
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </section>
+      <section class="section">
+        <div class="samples">
+          <h2>Week 2</h2>
+          <p><em>coming soon</em></p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      
+    </footer>
+    <script type="text/javascript" src="./script.js"></script>
+  </div>
+</body>
+</html>

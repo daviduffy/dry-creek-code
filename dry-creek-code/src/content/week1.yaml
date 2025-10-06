@@ -1,0 +1,15 @@
+heading: Week 1
+
+tease:
+  In week 1 we will do some introductions, and I will ask some questions about what everyone
+  wants to learn. I will also introduce the two areas that we can work on together
+topics:
+  - Computer Science Basics
+  - Website Development
+href:
+  /week-one
+links:
+  - url: https://studio.code.org/courses/coursec-2025/units/1/lessons/3/levels/1
+    text: Angry Birds Block Coding
+  - url: https://jsbin.com/sunukupuvu/edit?html,output
+    text: JSBin.com Demo Page

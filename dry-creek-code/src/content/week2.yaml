@@ -1,0 +1,38 @@
+heading: Week 2
+
+tease:
+  This week we are talking all about HTML!  If you ever used a word processing program like
+  Microsoft Word Google Docs, you've probably applied formatting to blocks of text. HTML
+  serves a similar purpose by offering text formatting instructions to web browsers through
+  tags known as markup.
+topics:
+  - hypertext markup language
+  - using heading and paragraph tags
+href:
+  /week-one
+links:
+  - url: https://studio.code.org/courses/coursec-2025/units/1/lessons/3/levels/1
+    text: Angry Birds Block Coding
+  - url: https://jsbin.com/sunukupuvu/edit?html,output
+    text: JSBin.com Demo Page
+
+article:
+  title: "Copper Dreams: When Minecraft Gets *Too* Real"
+  author: "Riley, Age 10"
+  date: "2025-10-04"
+  tags:
+    - Minecraft
+    - Copper Expansion
+    - Fun Story
+  sections:
+    - heading: "Copper Dreams: When Minecraft Gets *Too* Real"
+      subheading: "By Riley, Age 10"
+      body: |
+        When the new **Copper Expansion** came out for Minecraft, I couldn’t wait to play. I built a whole copper castle, complete with shiny copper doors and a lightning rod tower.
+
+        But that night, something weird happened. I dreamed I was walking through my castle — except it wasn’t a dream! My arms were made of copper blocks! Every time I moved, I made little *clink clink* noises.
+
+        In the morning, my mom said I looked a little “metallic.” I told her not to worry… as long as I didn’t start rusting.
+    - heading: "Moral of the Story"
+      body: |
+        Maybe don’t mine *all night* next time.
