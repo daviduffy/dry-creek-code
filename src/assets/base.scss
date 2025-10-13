@@ -145,3 +145,17 @@ h3 {
     transform: scale(1)
   }
 }
+
+.body--no-css {
+  all: unset!important;
+  * {
+    all: unset!important;
+  }
+}
+
+.header--no-css {
+  all: unset!important;
+  * {
+    all: unset!important;
+  }
+}
