@@ -24,9 +24,11 @@ import AsideComponent from '../components/AsideComponent.vue';
 
 import week1 from '../content/week1.yaml';
 import week2 from '../content/week2.yaml';
+import week3 from '../content/week3.yaml';
 
 import WeekOneComponent from '../components/WeekOneComponent.vue';
 import WeekTwoComponent from '../components/WeekTwoComponent.vue';
+import WeekThreeComponent from '../components/WeekThreeComponent.vue';
 
 const router = useRouter();
 const options = computed(() => {
@@ -48,6 +50,9 @@ const content = computed(() => {
       break;
     case 'week2.yaml':
       output = week2;
+      break;
+    case 'week3.yaml':
+      output = week3;
       break;
     default:
       console.log(`no match on ${content}`);
@@ -71,6 +76,9 @@ const Component = computed(() => {
       break;
     case 'week2.yaml':
       output = WeekTwoComponent;
+      break;
+    case 'week3.yaml':
+      output = WeekThreeComponent;
       break;
     default:
       console.log(`no match on ${content}`);

@@ -14,9 +14,11 @@ import TeaseComponent from '../components/TeaseComponent.vue';
 
 import week1 from '../content/week1.yaml';
 import week2 from '../content/week2.yaml';
+import week3 from '../content/week3.yaml';
 
 const weeks = computed(() => [
   week1,
   week2,
+  week3,
 ]);
 </script>

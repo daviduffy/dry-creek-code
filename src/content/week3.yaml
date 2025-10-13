@@ -1,4 +1,14 @@
 heading: Week 3
 
 tease:
-  We will dive into CSS this week! CSS focuses on enhancing the visual aspects of web pages, including elements like colors, typography, layout, and more. 
+  "<p>CSS, or Cascading Style Sheets, is the name we give to the rules and instructions that control the presentation and layout of elements on a web page. CSS defines how HTML elements should appear: things like fonts, colors, and sized and position of things.</p>"
+
+href: /week-three
+
+links:
+  - text: CSS named colors
+    url: https://developer.mozilla.org/en-US/docs/Web/CSS/named-color
+  - text: CSS colors challenge
+    url: https://jsbin.com/cugevap/edit?css,output
+  - text: CSS "Fix Google" challenge
+    url: https://jsbin.com/nopedad/edit?css,output

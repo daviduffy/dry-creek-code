@@ -9,7 +9,10 @@
           {{ heading }}
         </router-link>
       </h2>
-      <p class="week__tease">{{ tease }}</p>
+      <div
+        class="week__tease"
+        v-html="tease"
+      />
       <ul class="week__topics">
         <li
           v-for="(topic, index) in topics"
