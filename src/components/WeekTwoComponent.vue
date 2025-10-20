@@ -77,7 +77,6 @@ instructions to web browsers through tags. "Tags" (sometimes called elements) ar
 </template>
 
 <script>
-import AsideComponent from './AsideComponent.vue';
 </script>
 
 <style>

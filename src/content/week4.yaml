@@ -1,0 +1,16 @@
+heading: Week 4
+
+tease:
+  "<p>JavaScript is like the language that tells websites how to move, react, and play with you instead of just sitting there. It’s what makes buttons work, games run, and things change on the screen without reloading the whole page.</p>"
+
+href: /week-four
+
+links:
+  - text: Block Coding Loops
+    url: https://studio.code.org/courses/coursec-2025/units/1/lessons/8/levels/1
+  - text: Mad Lib 101
+    url: https://jsbin.com/hiniqat/edit?html,js,output
+  - text: Make Mario Jump
+    url: https://jsbin.com/xikeyir/3/edit?html,js,output
+  - text: Make the Monkey Jump Game
+    url: https://app.codemonkey.com/courses/blocks-hour-of-code#1

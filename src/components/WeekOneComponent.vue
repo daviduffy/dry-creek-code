@@ -53,11 +53,9 @@
         </div>
       </div>
   </div>
-  <aside-component />
 </template>
 
 <script>
-import AsideComponent from './AsideComponent.vue';
 </script>
 
 <style>

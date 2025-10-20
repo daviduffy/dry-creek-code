@@ -2,13 +2,14 @@
   <div class="week week--full">
     <h1 class="week__heading">{{ title }}</h1>
     <div
-      v-if="content"
+      v-if="model.content"
       class="week__content"
     >
       <div class="week__body">
-        <component :is="Component" />
+        <component :is="model.component" />
       </div>
       <aside-component
+        v-if="asideModel"
         v-bind="asideModel"
         class="week__aside"
       />
@@ -25,10 +26,12 @@ import AsideComponent from '../components/AsideComponent.vue';
 import week1 from '../content/week1.yaml';
 import week2 from '../content/week2.yaml';
 import week3 from '../content/week3.yaml';
+import week4 from '../content/week4.yaml';
 
 import WeekOneComponent from '../components/WeekOneComponent.vue';
 import WeekTwoComponent from '../components/WeekTwoComponent.vue';
 import WeekThreeComponent from '../components/WeekThreeComponent.vue';
+import WeekFourComponent from '../components/WeekFourComponent.vue';
 
 const router = useRouter();
 const options = computed(() => {
@@ -40,19 +43,26 @@ const options = computed(() => {
   return routeOptions;
 });
 
-const content = computed(() => {
+const model = computed(() => {
   const { content } = (options?.value || {});
   if (!content) return false;
-  let output;
+  let output = {};
   switch (content) {
     case 'week1.yaml':
-      output = week1;
+      output.content = week1;
+      output.component = WeekOneComponent;
       break;
     case 'week2.yaml':
-      output = week2;
+      output.content = week2;
+      output.component = WeekTwoComponent;
       break;
     case 'week3.yaml':
-      output = week3;
+      output.content = week3;
+      output.component = WeekThreeComponent;
+      break;
+    case 'week4.yaml':
+      output.content = week4;
+      output.component = WeekFourComponent;
       break;
     default:
       console.log(`no match on ${content}`);
@@ -62,34 +72,13 @@ const content = computed(() => {
 });
 
 const asideModel = computed(() => {
-  if (!content.value) return {};
-  return { links: content.value.links };
+  if (!model?.value?.content) return {};
+  return { links: model.value.content.links };
 })
 
-const Component = computed(() => {
-  const { content } = (options?.value || {});
-  if (!content) return false;
-  let output;
-  switch (content) {
-    case 'week1.yaml':
-      output = WeekOneComponent;
-      break;
-    case 'week2.yaml':
-      output = WeekTwoComponent;
-      break;
-    case 'week3.yaml':
-      output = WeekThreeComponent;
-      break;
-    default:
-      console.log(`no match on ${content}`);
-      break;
-  }
-  return output;
-});
-
 const title = computed(() => {
-  if (!content.value) return 'There was an issue loading this page';
-  return content?.value?.heading;
+  if (!model?.value?.content) return 'There was an issue loading this page';
+  return model.value.content.heading;
 });
 
 </script>
