@@ -1,0 +1,16 @@
+heading: Week 5
+
+tease:
+  "<p>I'll be out of town this week! If you're out of ideas, I have two thoughts for what you can do this week:</p>
+  <ul><li>'Creating Art with Code' lets you program instructions for the computer to draw shapes.
+  If you loop instructions, it can make cool designs!</li>
+  <li>The second link, 'Build your own business in Coding Town' is a Minecraft-like world where you'll
+  build a store and sell things!</li></ul>"
+
+href: /week-five
+
+links:
+  - text: Creating Art with Code
+    url: https://studio.code.org/courses/coursec-2025/units/1/lessons/6/levels/1
+  - text: "Build your own business in 'Coding Town'"
+    url: https://www.scriptacademy.net/hour-of-code/coding-town
