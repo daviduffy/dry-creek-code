@@ -70,6 +70,10 @@ const model = computed(() => {
       output.content = week5;
       output.component = WeekFiveComponent;
       break;
+    case 'week6.yaml':
+      output.content = week6;
+      output.component = WeekSixComponent;
+      break;
     default:
       console.log(`no match on ${content}`);
       break;

@@ -1,0 +1,12 @@
+heading: Week 6
+
+tease:
+  "Code the classic space invaders game in 3D, while learning about the basic of game development, motion in 3D space and learn fundamental programming concepts like loops, conditionals, variables, and keyboard events, all in less than an hour. Don't forget to share your creations with us using #hatchxr #HourOfCode"
+
+# href: /week-six
+
+links:
+  - text: Code a Space Invaders game
+    url: https://code.hatchxr.com/space-invader?step=1
+  - text: CSS Diner
+    url: https://flukeout.github.io/
