@@ -28,12 +28,14 @@ import week2 from '../content/week2.yaml';
 import week3 from '../content/week3.yaml';
 import week4 from '../content/week4.yaml';
 import week5 from '../content/week5.yaml';
+import week6 from '../content/week6.yaml';
 
 import WeekOneComponent from '../components/WeekOneComponent.vue';
 import WeekTwoComponent from '../components/WeekTwoComponent.vue';
 import WeekThreeComponent from '../components/WeekThreeComponent.vue';
 import WeekFourComponent from '../components/WeekFourComponent.vue';
 import WeekFiveComponent from '../components/WeekFiveComponent.vue';
+import WeekSixComponent from '../components/WeekSixComponent.vue';
 
 const router = useRouter();
 const options = computed(() => {
