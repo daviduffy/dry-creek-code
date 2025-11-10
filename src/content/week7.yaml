@@ -1,0 +1,12 @@
+heading: Week 7
+
+tease:
+  "<p>One of the most exciting things about computer science is that we can make computer programs interactive.</p><p>This week, we'll use events to make our work respond to user interactions.</p>"
+
+href: /week-seven
+
+links:
+  - text: Create your own FlappyBird game
+    url: https://studio.code.org/courses/coursec-2025/units/1/lessons/12/levels/1
+  - text: Click event listener exercise
+    url: https://jsbin.com/pudobab/edit?html,output
