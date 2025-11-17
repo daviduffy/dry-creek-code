@@ -30,6 +30,7 @@ import week4 from '../content/week4.yaml';
 import week5 from '../content/week5.yaml';
 import week6 from '../content/week6.yaml';
 import week7 from '../content/week7.yaml';
+import week8 from '../content/week8.yaml';
 
 import WeekOneComponent from '../components/WeekOneComponent.vue';
 import WeekTwoComponent from '../components/WeekTwoComponent.vue';
@@ -37,7 +38,7 @@ import WeekThreeComponent from '../components/WeekThreeComponent.vue';
 import WeekFourComponent from '../components/WeekFourComponent.vue';
 import WeekFiveComponent from '../components/WeekFiveComponent.vue';
 import WeekSixComponent from '../components/WeekSixComponent.vue';
-import WeekSevenComponent from '../components/WeekSevenComponent.vue';
+import GenericWeekComponent from '../components/GenericWeekComponent.vue';
 
 const router = useRouter();
 const options = computed(() => {
@@ -80,7 +81,11 @@ const model = computed(() => {
       break;
     case 'week7.yaml':
       output.content = week7;
-      output.component = WeekSevenComponent;
+      output.component = GenericWeekComponent;
+      break;
+    case 'week8.yaml':
+      output.content = week8;
+      output.component = GenericWeekComponent;
       break;
     default:
       console.log(`no match on ${content}`);

@@ -1,0 +1,14 @@
+heading: Week 8
+
+tease:
+  "<p>In Week 8 we will continue to use events to make our work respond to user interactions. You can create a basketball-themed 'pong' game, set up a fish tank with sprites of aquatic creatures, or create a program that shuffles images you have picked out!</p>"
+
+href: /week-seven
+
+links:
+  - text: Create "pong" style basketball game
+    url: https://studio.code.org/courses/coursed-2025/units/1/lessons/7/levels/1
+  - text: Create a fish tank with Sprite Lab
+    url: https://studio.code.org/courses/coursee-2025/units/1/lessons/3/levels/1
+  - text: Make an image shuffler
+    url: https://jsbin.com/vazukon/1/edit?html,js,output

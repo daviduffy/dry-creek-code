@@ -19,8 +19,10 @@ import week4 from '../content/week4.yaml';
 import week5 from '../content/week5.yaml';
 import week6 from '../content/week6.yaml';
 import week7 from '../content/week7.yaml';
+import week8 from '../content/week8.yaml';
 
 const weeks = computed(() => [
+  week8,
   week7,
   week6,
   week5,
