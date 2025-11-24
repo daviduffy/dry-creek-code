@@ -1,0 +1,12 @@
+heading: Week 9
+
+tease:
+  "<p>In Week 9 we will start to explore how to use <strong>variables</strong>. You'll start by playing a game that uses variables, then try to make your own!</p>"
+
+href: /week-nine
+
+links:
+  - text: Play these games to see how variables work
+    url: https://studio.code.org/courses/coursee-2025/units/1/lessons/7/levels/1
+  - text: Create your own game with a "score" variable
+    url: https://studio.code.org/courses/coursee-2025/units/1/lessons/7/levels/4
