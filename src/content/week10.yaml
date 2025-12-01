@@ -1,0 +1,14 @@
+heading: Week 10
+
+tease:
+  "<p>In Week 10 we will test the waters of <strong>Artificial Intelligence</strong>! Also, I don't know if the AI stuff is too advanced, so there's a fallback Minecraft activity 👍🏼</p>"
+
+href: /week-nine
+
+links:
+  - text: Create an AI model to control game character from gestures!
+    url: https://app.codemonkey.com/courses/ai-mini-course#1
+  - text: Make your own version of PacMan
+    url: https://ruler.game/framed.html?tutorial=Pac-Man_Hour-of-AI-US
+  - text: Minecraft challenge (non-AI)
+    url: https://studio.code.org/courses/express-2025/units/1/lessons/16/levels/1
