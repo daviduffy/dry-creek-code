@@ -32,6 +32,8 @@ import week6 from '../content/week6.yaml';
 import week7 from '../content/week7.yaml';
 import week8 from '../content/week8.yaml';
 import week9 from '../content/week9.yaml';
+import week10 from '../content/week10.yaml';
+import week11 from '../content/week11.yaml';
 
 import WeekOneComponent from '../components/WeekOneComponent.vue';
 import WeekTwoComponent from '../components/WeekTwoComponent.vue';
@@ -90,6 +92,14 @@ const model = computed(() => {
       break;
     case 'week9.yaml':
       output.content = week9;
+      output.component = GenericWeekComponent;
+      break;
+    case 'week10.yaml':
+      output.content = week10;
+      output.component = GenericWeekComponent;
+      break;
+    case 'week11.yaml':
+      output.content = week11;
       output.component = GenericWeekComponent;
       break;
     default:

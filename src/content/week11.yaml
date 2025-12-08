@@ -1,0 +1,12 @@
+heading: Week 11
+
+tease:
+  "Computers are one of the main tools that musicians use to make music. Music production programs let music producers lay out sequences of sounds using block coding interfaces like the ones we use in this class. This week, we'll use the coding patterns we have learned in this class to make our own music!"
+
+href: /week-eleven
+
+links:
+  - text: Try out music production with Songwriter's Toolbox
+    url: https://studio.code.org/courses/coding-with-music-2025/units/1/lessons/1/levels/1
+  - text: Design a custom dance party with AI
+    url: https://studio.code.org/courses/mix-move-ai-2025/units/1/lessons/1/levels/6
