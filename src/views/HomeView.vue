@@ -1,4 +1,7 @@
 <template>
+  <iframe
+    class="survey"
+    src="https://docs.google.com/forms/d/e/1FAIpQLScXOO3xLiwwKZeOHNYrDXwbjcT2yuc_9KCXdmRR8M1aQUxh4g/viewform?embedded=true" width="640" height="1171" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   <tease-component
     v-for="(week, index) in weeks"
     :key="index"
@@ -38,3 +41,10 @@ const weeks = computed(() => [
   week1,
 ]);
 </script>
+
+<style>
+.survey {
+  display: block;
+  margin: 0 auto 4.8rem;
+}
+</style>
